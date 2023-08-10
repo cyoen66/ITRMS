@@ -7,8 +7,8 @@
 
             <div class="login-box">
                 <div class="login-logo mb-2">
-                    <h4 class="mt-0">让IT资产管理更加简单</h4>
-                    <p class="login-box-msg mt-1 mb-1">{{ __('admin.welcome_back') }}</p>
+                    <h4 class="mt-0">{{ __('admin.welcome_back') }}</h4>
+                    <!-- <p class="login-box-msg mt-1 mb-1">{{ __('admin.welcome_back') }}</p> -->
                 </div>
                 <div class="card">
                     <div class="card-body login-card-body">

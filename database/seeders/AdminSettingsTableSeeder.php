@@ -78,7 +78,7 @@ class AdminSettingsTableSeeder extends Seeder
             8 =>
                 array(
                     'slug' => 'site_lang',
-                    'value' => 'zh_CN',
+                    'value' => 'ja',
                     'created_at' => '2021-01-28 16:47:03',
                     'updated_at' => '2021-02-08 08:12:47',
                 ),

@@ -51,6 +51,7 @@ class SiteSettingForm extends Form
             ->options([
                 'ja' => '日本語',
                 'en' => 'English',
+                'zh_CN' => '中国語',
             ])
             ->default(admin_setting('site_lang'));
     }

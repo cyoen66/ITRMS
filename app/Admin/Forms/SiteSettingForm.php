@@ -49,7 +49,7 @@ class SiteSettingForm extends Form
             ->default(admin_setting('site_debug'));
         $this->radio('site_lang')
             ->options([
-                'zh_CN' => '中文（简体）',
+                'ja' => '日本語',
                 'en' => 'English',
             ])
             ->default(admin_setting('site_lang'));

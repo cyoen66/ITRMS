@@ -47,21 +47,21 @@ return [
         'Tag Print List' => '印刷リスト'
     ],
     'fields' => [
-        'asset_number_qrcode' => '二维码',
-        'description' => '描述',
+        'asset_number_qrcode' => 'QRコード',
+        'description' => '備考',
         'category' => [
-            'name' => '分类',
+            'name' => '分類',
         ],
         'vendor' => [
-            'name' => '厂商',
+            'name' => 'メーカー',
         ],
         'mac' => 'MAC',
         'ip' => 'IP',
-        'photo' => '照片',
+        'photo' => '写真',
         'admin_user' => [
-            'name' => '用户',
+            'name' => '使用者',
             'department' => [
-                'name' => '部门',
+                'name' => '使用部門',
             ],
             'department_id' => '部门',
         ],
@@ -104,13 +104,13 @@ return [
         'ng_description' => '故障说明',
         'ng_time' => '故障发生时间',
         'user_same' => '用户已存在',
-        'user_id' => '用户',
-        'expiration_left_days' => '保固剩余时间',
+        'user_id' => '使用者',
+        'expiration_left_days' => '残り保証期間',
         'depreciation_price' => '折旧后价格',
-        'file' => '文件',
+        'file' => 'ファイル',
         'depreciation_rule_id' => '折旧规则',
-        'device_status' => '设备状态',
-        'no_user' => '闲置'
+        'device_status' => 'ステータス',
+        'no_user' => '未使用'
     ],
     'options' => [
     ],

@@ -2,18 +2,18 @@
 
 return [
     'labels' => [
-        'title' => '耗材',
-        'description' => '支持多级树形结构',
-        'categories' => '耗材分类',
-        'Import' => '导入',
-        'File Help' => '导入支持xlsx、csv文件，且表格头必须使用【名称，描述】。',
+        'title' => '消耗品',
+        'description' => '多階層ツリー構造をサポート',
+        'categories' => '消耗品カテゴリ',
+        'Import' => 'インポート',
+        'File Help' => 'インポートはxlsxやcsvファイルに対応しています。テーブルのヘッダーは【名称、説明】を使用する必要があります。',
     ],
     'fields' => [
-        'name' => '名称',
-        'description' => '描述',
-        'parent_id' => '父级节点',
-        'order' => '排序',
-        'file' => '文件',
+        'name' => '名前',
+        'description' => '説明',
+        'parent_id' => '親ノード',
+        'order' => '並び順',
+        'file' => 'ファイル',
     ],
     'options' => [
     ],

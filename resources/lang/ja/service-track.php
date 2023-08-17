@@ -2,24 +2,25 @@
 
 return [
     'labels' => [
-        'title' => '服务',
-        'description' => '与设备的归属关系',
-        'tracks' => '服务归属记录',
-        'Delete' => '解除归属',
-        'History Scope' => '查看历史归属记录',
-        'Track None' => '找不到此服务归属记录！',
-        'Delete Success' => '服务归属解除成功！',
-        'Delete Confirm' => '确认解除与此设备的关联？',
+        'title' => 'サービス',
+        'description' => 'デバイスの所属関係',
+        'tracks' => 'サービスの所属記録',
+        'Delete' => '所属解除',
+        'History Scope' => '履歴の所属記録を表示',
+        'Track None' => 'このサービスの所属記録が見つかりません！',
+        'Delete Success' => 'サービスの所属が正常に解除されました！',
+        'Delete Confirm' => 'このデバイスとの関連を解除してもよろしいですか？',
     ],
     'fields' => [
-        'tracks' => '服务归属记录',
+        'tracks' => 'サービスの所属記録',
         'service' => [
-            'name' => '服务',
+            'name' => 'サービス',
         ],
         'device' => [
-            'asset_number' => '设备',
+            'asset_number' => 'デバイス',
         ],
     ],
     'options' => [
     ],
 ];
+

@@ -2,17 +2,17 @@
 
 return [
     'labels' => [
-        'title' => '配置',
-        'description' => '与站点相关的配置',
-        'ui' => '界面',
-        'Gird Row Action Right Help' => '启用后表格行操作按钮将永远贴着最右侧。',
+        'title' => '設定',
+        'description' => 'サイトに関連する設定',
+        'ui' => 'インターフェース',
+        'Gird Row Action Right Help' => '有効にすると、行アクションボタンが常に最も右側に配置されます。',
     ],
     'fields' => [
-        'footer_remove' => '移除底部框架授权',
-        'theme_color' => '主题色',
-        'grid_row_actions_right' => '行操作按钮最右',
-        'switch_to_select_create' => '选项快速创建',
-        'switch_to_filter_panel' => '嵌入式筛选框'
+        'footer_remove' => 'フッターフレームのライセンス表示を削除',
+        'theme_color' => 'テーマの色',
+        'grid_row_actions_right' => '行アクションボタンを最右に配置',
+        'switch_to_select_create' => 'オプションのクイック作成に切り替え',
+        'switch_to_filter_panel' => '埋め込みフィルターパネルに切り替え'
     ],
     'options' => [
     ],

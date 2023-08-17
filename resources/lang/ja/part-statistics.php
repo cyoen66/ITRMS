@@ -2,8 +2,8 @@
 
 return [
     'labels' => [
-        'title' => '配件',
-        'description' => '与之相关的统计图表和卡片',
+        'title' => 'アクセサリー',
+        'description' => '関連する統計グラフとカード',
     ],
     'fields' => [
 
@@ -11,3 +11,4 @@ return [
     'options' => [
     ],
 ];
+

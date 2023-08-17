@@ -2,23 +2,24 @@
 
 return [
     'labels' => [
-        'title' => '配件',
-        'description' => '与设备的归属关系',
-        'tracks' => '配件归属记录',
-        'Delete' => '解除归属',
-        'History Scope' => '查看历史归属记录',
-        'Track None' => '未找到对应的归属关系！',
-        'Delete Success' => '配件归属解除成功！',
-        'Delete Confirm' => '确认解除与此设备的关联？',
+        'title' => 'アクセサリー',
+        'description' => 'デバイスとの関係',
+        'tracks' => 'アクセサリーの所属記録',
+        'Delete' => '所属解除',
+        'History Scope' => '履歴の所属記録を表示',
+        'Track None' => '対応する所属関係が見つかりませんでした！',
+        'Delete Success' => 'アクセサリーの所属が正常に解除されました！',
+        'Delete Confirm' => 'このデバイスとの関連を解除してもよろしいですか？',
     ],
     'fields' => [
         'part' => [
-            'asset_number' => '配件',
+            'asset_number' => 'アクセサリー',
         ],
         'device' => [
-            'asset_number' => '设备'
+            'asset_number' => 'デバイス'
         ],
     ],
     'options' => [
     ],
 ];
+

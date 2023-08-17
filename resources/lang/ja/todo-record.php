@@ -2,28 +2,29 @@
 
 return [
     'labels' => [
-        'title' => '待办事项',
-        'description' => '轻量的 TODO 功能',
-        'records' => '待办',
-        'User Id' => '用户',
-        'Update' => '处理待办',
-        'Create' => '创建待办',
-        'Tag Help' => '随意打上标签，输入后按空格创建，再按回车确定。',
+        'title' => 'タスク',
+        'description' => '軽量な TODO 機能',
+        'records' => 'タスク',
+        'User Id' => 'ユーザー',
+        'Update' => 'タスクの処理',
+        'Create' => 'タスクの作成',
+        'Tag Help' => 'タグを自由に付けることができます。入力後にスペースキーを押して作成し、Enterキーで確定します。',
     ],
     'fields' => [
         'name' => '名称',
-        'description' => '描述',
-        'start' => '开始时间',
-        'end' => '结束时间',
-        'priority' => '优先级',
+        'description' => '説明',
+        'start' => '開始時間',
+        'end' => '終了時間',
+        'priority' => '優先度',
         'user' => [
-            'name' => '负责人',
+            'name' => '担当者',
         ],
-        'tags' => '标签',
-        'done_description' => '完成说明',
-        'emoji' => '心情',
-        'user_id' => '负责人'
+        'tags' => 'タグ',
+        'done_description' => '完了の説明',
+        'emoji' => '気分',
+        'user_id' => '担当者'
     ],
     'options' => [
     ],
 ];
+

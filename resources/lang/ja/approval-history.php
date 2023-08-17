@@ -2,24 +2,24 @@
 
 return [
     'labels' => [
-        'title' => '审批流程',
-        'description' => '流程引擎定义',
-        'records' => '审批流程',
-        'Update' => '审核'
+        'title' => '承認プロセス',
+        'description' => 'プロセスエンジンの定義',
+        'records' => '承認プロセス',
+        'Update' => '審査'
     ],
     'fields' => [
-        'name' => '名称',
-        'description' => '描述',
+        'name' => '名前',
+        'description' => '説明',
         'role' => [
-            'name' => '审核角色'
+            'name' => '審査ロール'
         ],
         'approval' => [
-            'name' => '审批'
+            'name' => '承認'
         ],
-        'item' => '项目',
-        'item_id' => '项目ID',
-        'approval_id' => '审批',
-        'role_id' => '审核角色',
-        'order_id' => '流程名称'
+        'item' => 'アイテム',
+        'item_id' => 'アイテムID',
+        'approval_id' => '承認',
+        'role_id' => '審査ロール',
+        'order_id' => 'プロセス名'
     ],
 ];

@@ -2,15 +2,15 @@
 
 return [
     'labels' => [
-        'title' => '审批流程',
-        'description' => '流程引擎定义',
-        'records' => '审批流程',
-        'Delete' => '删除流程',
-        'Delete Confirm' => '确认删除？',
-        'Delete Confirm Description' => '删除的同时将会删除所有与之关联的流程逻辑',
+        'title' => '承認プロセス',
+        'description' => 'プロセスエンジンの定義',
+        'records' => '承認プロセス',
+        'Delete' => 'プロセスの削除',
+        'Delete Confirm' => '削除を確認',
+        'Delete Confirm Description' => '削除すると、関連するすべてのプロセスロジックも削除されます',
     ],
     'fields' => [
-        'name' => '名称',
-        'description' => '描述'
+        'name' => '名前',
+        'description' => '説明'
     ],
 ];

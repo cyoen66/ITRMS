@@ -2,21 +2,21 @@
 
 return [
     'labels' => [
-        'title' => '耗材',
-        'description' => '入库领用记录',
-        'tracks' => '耗材记录',
+        'title' => '消耗品',
+        'description' => '入庫・引取り記録',
+        'tracks' => '消耗品記録',
     ],
     'fields' => [
         'consumable' => [
-            'name' => '耗材',
+            'name' => '消耗品',
         ],
         'user' => [
-            'name' => '用户（领用人）',
+            'name' => 'ユーザー（引取人）',
         ],
         'number' => '数量',
-        'change' => '改变',
-        'purchased' => '购入日期',
-        'expired' => '过保日期',
-        'description' => '描述'
+        'change' => '変更',
+        'purchased' => '購入日',
+        'expired' => '保証期限',
+        'description' => '説明'
     ],
 ];

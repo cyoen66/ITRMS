@@ -2,16 +2,17 @@
 
 return [
     'labels' => [
-        'title' => '组织',
-        'description' => '角色是用户的集合',
-        'roles' => '角色',
-        'User' => '用户',
-        'Department' => '部门',
-        'Role' => '角色',
-        'Permission' => '权限',
+        'title' => '組織',
+        'description' => '役割はユーザーの集合です',
+        'roles' => '役割',
+        'User' => 'ユーザー',
+        'Department' => '部門',
+        'Role' => '役割',
+        'Permission' => '権限',
     ],
     'fields' => [
     ],
     'options' => [
     ],
 ];
+

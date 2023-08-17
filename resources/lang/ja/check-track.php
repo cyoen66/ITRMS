@@ -2,29 +2,29 @@
 
 return [
     'labels' => [
-        'title' => '盘点',
-        'description' => '任务的具体明细',
-        'tracks' => '盘点记录',
-        'Update Track' => '处理盘点',
-        'Delete' => '删除盘点',
-        'Delete Confirm' => '确认删除？',
-        'Delete Confirm Description' => '删除的同时将无法盘点到此设备',
-        'Record None' => '没有此盘点任务',
-        'Item None' => '没有此物资',
-        'Update Delete Action' => '删除盘点',
+        'title' => '棚卸し',
+        'description' => 'タスクの詳細',
+        'tracks' => '棚卸し記録',
+        'Update Track' => '棚卸し処理',
+        'Delete' => '棚卸し削除',
+        'Delete Confirm' => '削除を確認',
+        'Delete Confirm Description' => '削除すると、このデバイスは棚卸し対象から外れます',
+        'Record None' => '該当する棚卸しタスクはありません',
+        'Item None' => '該当する資産はありません',
+        'Update Delete Action' => '棚卸し削除',
     ],
     'fields' => [
-        'check_item' => '资产类别',
+        'check_item' => '資産の種類',
         'item' => [
-            'asset_number' => '资产编号'
+            'asset_number' => '資産番号'
         ],
-        'check_id' => '任务ID',
-        'item_id' => '资产编号',
-        'status' => '状态',
+        'check_id' => 'タスクID',
+        'item_id' => '資産番号',
+        'status' => 'ステータス',
         'checker' => [
-            'name' => '盘点人员',
+            'name' => '棚卸し担当',
         ],
-        'description' => '描述',
+        'description' => '説明',
     ],
     'options' => [
     ],

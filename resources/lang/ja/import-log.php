@@ -1,15 +1,16 @@
 <?php
+
 return [
     'labels' => [
-        'ImportLog' => '导入日志',
-        'import-log' => '导入日志',
+        'ImportLog' => 'インポートログ',
+        'import-log' => 'インポートログ',
     ],
     'fields' => [
-        'item' => '资产',
+        'item' => '資産',
         'succeed' => '成功',
-        'failed' => '失败',
+        'failed' => '失敗',
         'operator' => [
-            'name' => '执行者'
+            'name' => '実行者'
         ],
     ],
     'options' => [

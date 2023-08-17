@@ -1,6 +1,7 @@
 <?php
 
 return [
-    'required' => '必须',
-    'unique' => '已存在相同记录',
+    'required' => '必須',
+    'unique' => '同じレコードがすでに存在しています',
 ];
+

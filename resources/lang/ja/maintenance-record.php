@@ -1,22 +1,21 @@
 <?php
-
 return [
     'labels' => [
-        'title' => '资产故障',
-        'description' => '报告故障的设备、配件等',
-        'records' => '物资故障',
-        'Status Waiting' => '等待处理',
-        'Status Done' => '完成',
-        'Status Cancelled' => '取消',
-        'Update' => '处理故障',
+        'title' => '資産障害',
+        'description' => '装置、部品などの障害報告',
+        'records' => '資産障害',
+        'Status Waiting' => '処理待ち',
+        'Status Done' => '完了',
+        'Status Cancelled' => 'キャンセル',
+        'Update' => '障害処理',
     ],
     'fields' => [
-        'asset_number' => '资产编号',
-        'ng_description' => '故障说明',
-        'ok_description' => '维修说明',
-        'ng_time' => '故障时间',
-        'ok_time' => '维修时间',
-        'status' => '状态',
+        'asset_number' => '資産番号',
+        'ng_description' => '障害説明',
+        'ok_description' => '修理説明',
+        'ng_time' => '障害発生日時',
+        'ok_time' => '修理日時',
+        'status' => '状態',
     ],
     'options' => [
     ],

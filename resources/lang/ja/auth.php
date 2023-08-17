@@ -2,10 +2,10 @@
 
 return [
     'labels' => [
-        'setting' => '用户设置'
+        'setting' => 'ユーザー設定'
     ],
     'fields' => [
-        'number' => '工号'
+        'number' => '社員番号'
     ],
     'options' => [
     ],

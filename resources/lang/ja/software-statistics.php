@@ -2,8 +2,8 @@
 
 return [
     'labels' => [
-        'title' => '软件',
-        'description' => '与之相关的统计图表和卡片',
+        'title' => 'ソフトウェア',
+        'description' => '関連する統計グラフとカード',
     ],
     'fields' => [
 
@@ -11,3 +11,4 @@ return [
     'options' => [
     ],
 ];
+

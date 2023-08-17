@@ -2,17 +2,17 @@
 
 return [
     'labels' => [
-        'title' => '审批流程',
-        'description' => '流程引擎定义',
-        'records' => '审批流程',
+        'title' => '承認プロセス',
+        'description' => 'プロセスエンジンの定義',
+        'records' => '承認プロセス',
     ],
     'fields' => [
-        'name' => '名称',
-        'description' => '描述',
+        'name' => '名前',
+        'description' => '説明',
         'role' => [
-            'name' => '审核角色'
+            'name' => '審査ロール'
         ],
-        'approval_id' => '审批',
-        'role_id' => '审核角色'
+        'approval_id' => '承認',
+        'role_id' => '審査ロール'
     ],
 ];

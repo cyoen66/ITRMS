@@ -1,19 +1,18 @@
 <?php
-
 return [
     'labels' => [
-        'title' => '配件',
-        'description' => '支持多级树形结构',
-        'categories' => '配件分类',
-        'Import' => '导入',
-        'File Help' => '导入支持xlsx、csv文件，且表格头必须使用【名称，描述】。',
+        'title' => 'アクセサリー',
+        'description' => '多階層ツリー構造をサポート',
+        'categories' => 'アクセサリーカテゴリ',
+        'Import' => 'インポート',
+        'File Help' => 'インポートはxlsx、csvファイルに対応しており、テーブルヘッダーは【名称、説明】を使用する必要があります。',
     ],
     'fields' => [
         'name' => '名称',
-        'description' => '描述',
-        'parent_id' => '父级分类',
-        'depreciation_rule_id' => '折旧规则',
-        'file' => '文件',
+        'description' => '説明',
+        'parent_id' => '親カテゴリ',
+        'depreciation_rule_id' => '減価償却ルール',
+        'file' => 'ファイル',
     ],
     'options' => [
     ],

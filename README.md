@@ -12,7 +12,7 @@
     <img src="https://img.shields.io/badge/MySQL-5.7+-blueviolet" />
     <img src="https://img.shields.io/badge/License-GPL3.0-blue" />
 </p>
-test by zhangyan
+test2 by zhangyan
 ## 仓库托管
 
 Github `https://github.com/celaraze/chemex`

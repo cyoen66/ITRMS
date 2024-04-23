@@ -8,6 +8,7 @@ use Dcat\Admin\Grid\BatchAction;
 
 class ConsumableRecordBatchDeleteAction extends BatchAction
 {
+    sdfsdsfd
     public function __construct($title = null)
     {
         parent::__construct($title);
